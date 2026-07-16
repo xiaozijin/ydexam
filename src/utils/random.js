@@ -8,13 +8,21 @@ import questions from '../data/question.js';
  */
 export function getRandomQuestions(count, filter = null) {
   let pool = [...questions];
-  
-  // 如果指定了按题型抽取（用于套卷训练）
+
   if (filter) {
-    pool = [];
-    if (filter.single) pool.push(...questions.filter(q => q.type === 'single'));
-    if (filter.judge) pool.push(...questions.filter(q => q.type === 'judge'));
-    if (filter.multi) pool.push(...questions.filter(q => q.type === 'multi'));
+    // 1. 优先按 level 过滤（必须在清空数组之前执行，且基于完整题库）
+    if (filter.level !== undefined) {
+      pool = pool.filter(q => (q.level || 0) === filter.level);
+    }
+
+    // 2. 如果指定了按题型抽取（用于套卷训练）
+    if (filter.single || filter.judge || filter.multi) {
+      let typePool = [];
+      if (filter.single) typePool.push(...questions.filter(q => q.type === 'single'));
+      if (filter.judge) typePool.push(...questions.filter(q => q.type === 'judge'));
+      if (filter.multi) typePool.push(...questions.filter(q => q.type === 'multi'));
+      pool = typePool;
+    }
   }
 
   // 洗牌算法 (Fisher-Yates)

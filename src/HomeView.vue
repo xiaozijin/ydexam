@@ -21,6 +21,12 @@
         <p class="desc">100分，说的是你。</p>
         <button class="action-btn" @click="goToExam('paper')">开始考试</button>
       </div>
+
+      <div class="mode-card">
+        <h2>难题训练</h2>
+        <p class="desc">个人观点，仅供参考。</p>
+        <button class="action-btn" @click="goToExam('hard-level')">题目启动</button>
+      </div>
     </div>
   </div>
 </template>

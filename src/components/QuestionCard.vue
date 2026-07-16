@@ -9,8 +9,9 @@
         class="option-item"
         :class="{ 
           selected: userAnswer.includes(opt.charAt(0)), 
-          correct: showResult && opt.charAt(0) === question.answer, 
-          wrong: showResult && userAnswer.includes(opt.charAt(0)) && opt.charAt(0) !== question.answer 
+          // 核心修复：将 answer 字符串转为数组，再判断当前选项字母是否在其中
+          correct: showResult && question.answer.split('').includes(opt.charAt(0)), 
+          wrong: showResult && userAnswer.includes(opt.charAt(0)) && !question.answer.split('').includes(opt.charAt(0)) 
         }"
         @click="selectOption(opt.charAt(0))"
       >

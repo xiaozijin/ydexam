@@ -77,6 +77,7 @@ const questions = [
     id: 'single-1',
     type: 'single',
     question: '下列哪项不属于中央八项规定？',
+    level: 1,
     options: ['A. 改进会风', 'B. 改进文风', 'C. 改进学风', 'D. 厉行勤俭节约'],
     answer: 'C'
   },
@@ -98,6 +99,7 @@ const questions = [
     id: 'single-4',
     type: 'single',
     question: '下列不属于违反政治纪律的行为是？',
+    level: 1,
     options: ['A. 不执行党中央决策部署', 'B. 涉外活动中存在有政治问题的言行', 'C. 违反出国（境）管理规定', 'D. 不坚定理想信念'],
     answer: 'C'
   },
@@ -126,6 +128,7 @@ const questions = [
     id: 'single-8',
     type: 'single',
     question: '根据党的纪律要求，下列哪一项行为不是违反工作纪律的典型表现？',
+    level: 1,
     options: ['A. 在工作中弄虚作假，虚报工作业绩', 'B. 违规办理业务', 'C. 通过互联网等公共网络传输涉密文件', 'D. 串供或者伪造、销毁、转移、隐匿证据，对抗组织审查'],
     answer: 'D'
   },
@@ -149,6 +152,7 @@ const questions = [
     id: 'multi-1',
     type: 'multi',
     question: '下列属于中央八项规定精神所列类型之问题，即“四风”的有？',
+    level: 1,
     options: ['A. 奢靡之风', 'B. 官僚主义', 'C. 享受主义', 'D. 形式主义'],
     answer: 'ABD'
   },
@@ -156,6 +160,7 @@ const questions = [
     id: 'multi-2',
     type: 'multi',
     question: '从纪法角度，员工需要遵守的条例有？',
+    level: 1,
     options: ['A.《中国共产党章程》党员权利义务', 'B.《中国共产党纪律处分条例》党规党纪、六大纪律要求', 'C.《员工违纪违规处分条例》', 'D.《刑法》', 'E. 中央八项规定'],
     answer: 'ABD'
   },
@@ -163,6 +168,7 @@ const questions = [
     id: 'multi-3',
     type: 'multi',
     question: '根据《中国共产党廉洁自律准则》，党员领导干部廉洁自律规范中“四个自觉”包括？',
+    level: 1,
     options: ['A. 廉洁从政，自觉保持人民公仆本色', 'B. 廉洁用权，自觉维护人民根本利益', 'C. 廉洁修身，自觉提升思想道德境界', 'D. 廉洁齐家，自觉带头树立良好家风', 'E. 廉洁奉公，自觉遵守党纪国法红线'],
     answer: 'ABCD'
   },
@@ -185,6 +191,7 @@ const questions = [
     id: 'judge-11',
     type: 'judge',
     question: '北京移动绩效管理包含绩效计划制定、绩效辅导、绩效评估、绩效应用四大核心环节。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -192,6 +199,7 @@ const questions = [
     id: 'judge-12',
     type: 'judge',
     question: '事假期间会正常发放员工固定薪酬，仅停发变动绩效奖金。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -220,6 +228,7 @@ const questions = [
     id: 'judge-16',
     type: 'judge',
     question: '变动工资由业绩奖，销售奖金，部门一次性奖励构成。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -264,6 +273,7 @@ const questions = [
     id: 'single-12',
     type: 'single',
     question: '北京公司现有40个二级正单位，其中市公司本部包括（）个职能部门、（）个生产中心，以及一线单位包括（）分公司。',
+    level: 1,
     options: ['A. 17、4、15', 'B. 16、4、15', 'C. 17、4、16', 'D. 17、5、15'],
     answer: 'A'
   },
@@ -278,6 +288,7 @@ const questions = [
     id: 'single-14',
     type: 'single',
     question: '北京移动员工平均工龄为（）年。',
+    level: 1,
     options: ['A. 15', 'B. 16', 'C. 17', 'D. 18'],
     answer: 'C'
   },
@@ -299,6 +310,7 @@ const questions = [
     id: 'single-17',
     type: 'single',
     question: '新员工职位适应期考核评估阶段的顺序为：①培训综合考核 ②网格实践考核 ③轮岗实践考核 ④岗位实训考核',
+    level: 1,
     options: ['A. ①④③②', 'B. ①②④③', 'C. ①④②③', 'D. ①②③④'],
     answer: 'C'
   },
@@ -313,6 +325,7 @@ const questions = [
     id: 'single-19',
     type: 'single',
     question: '在试用期时，日常绩效为E或业务考试分数低于80分或团队契合度合格率低于（），则试用期考核不通过。',
+    level: 1,
     options: ['A. 1/4', 'B. 1/2', 'C. 2/3', 'D. 3/4'],
     answer: 'C'
   },
@@ -329,6 +342,7 @@ const questions = [
     id: 'multi-6',
     type: 'multi',
     question: '北京移动员工职业发展体系通道包括？',
+    level: 1,
     options: ['A. 数字政府通道', 'B. 专家通道', 'C. 岗位序列通道', 'D. 经理通道'],
     answer: 'BCD'
   },
@@ -343,6 +357,7 @@ const questions = [
     id: 'multi-8',
     type: 'multi',
     question: '以下哪些部门或中心不属于北京移动一线单位？',
+    level: 1,
     options: ['A. 云网运营中心', 'B. 互联网战略客户中心', 'C. 客户体验部', 'D. 发展战略部'],
     answer: 'ACD'
   },

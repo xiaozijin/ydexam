@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../HomeView.vue') 
   },
   {
+    path: '/hard-level',
+    name: 'hard-level',
+    component: () => import('../HardLevelView.vue')
+  },
+  {
     path: '/single',
     name: 'single',
     component: () => import('../SinglePractice.vue') 

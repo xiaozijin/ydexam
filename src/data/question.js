@@ -408,6 +408,7 @@ const questions = [
     id: 'judge-25',
     type: 'judge',
     question: 'PIN码不可以修改。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -415,6 +416,7 @@ const questions = [
     id: 'judge-26',
     type: 'judge',
     question: '客户更换SIM卡后，原PUK码随之改变。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -442,7 +444,8 @@ const questions = [
   {
     id: 'judge-30',
     type: 'judge',
-    question: '客户每月话费账单（不含赠送减免部分）可以进行消费积分，每一元积十分。',
+    question: '客户每月话费账单（不含赠送减免部分）可以进行消费积分，每一元积十分。', 
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -487,6 +490,7 @@ const questions = [
     id: 'single-26',
     type: 'single',
     question: 'PIN码连续输入错误多少次后，SIM卡会被锁定？',
+    level: 1,
     options: ['A. 3次', 'B. 5次', 'C. 8次', 'D. 10次'],
     answer: 'A'
   },
@@ -494,6 +498,7 @@ const questions = [
     id: 'single-27',
     type: 'single',
     question: '主卡最多可增加多少个副卡成员？',
+    level: 1,
     options: ['A. 5', 'B. 6', 'C. 7', 'D. 8'],
     answer: 'C'
   },
@@ -531,6 +536,7 @@ const questions = [
     id: 'multi-12',
     type: 'multi',
     question: '关于SIM卡描述正确的是？',
+    level: 1,
     options: ['A. SIM卡储存客户信息、PIN、PUK码', 'B. PUK码累计错误超过10次（部分机型为7次），SIM卡将自动报废', 'C. PUK码初始密码统一为1234', 'D. 更换SIM卡后，原PUK码失效变更'],
     answer: 'ABD'
   },
@@ -538,6 +544,7 @@ const questions = [
     id: 'multi-13',
     type: 'multi',
     question: '中国移动 99Plus 套餐包含以下哪些资费档次？',
+    level: 1,
     options: ['A. 99元/次', 'B. 139元/次', 'C. 159元/次', 'D. 199元/次'],
     answer: 'ABD'
   },
@@ -573,6 +580,7 @@ const questions = [
     id: 'judge-33',
     type: 'judge',
     question: '移动云为用户提供“公私混专”四种服务模式，其中专属云是单独开发部署，资源独享的方案配置。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -631,6 +639,7 @@ const questions = [
     id: 'single-31',
     type: 'single',
     question: '下列关于互联网BGP专线的目标客户，描述准确的是？',
+    level: 1,
     options: ['A. 街边商铺、小型门店', 'B. 互联网信息服务提供商，如百度、腾讯等企业', 'C. 仅适用于跨省组网的集团公司', 'D. 对价格高度敏感的小微企业'],
     answer: 'B'
   },
@@ -638,6 +647,7 @@ const questions = [
     id: 'single-32',
     type: 'single',
     question: '移动云产品数量达230+款，产品丰富度行业领先，下列哪项是SaaS应用产品？',
+    level: 1,
     options: ['A. 云空间', 'B. 中移商情', 'C. 微服务平台', 'D. AI训练平台'],
     answer: 'B'
   },
@@ -652,6 +662,7 @@ const questions = [
     id: 'single-34',
     type: 'single',
     question: '下列不属于IDC增值服务中网络安全类服务的是？',
+    level: 1,
     options: ['A. 流量清洗', 'B. 漏洞扫描', 'C. 视频监控', 'D. 防火墙防护'],
     answer: 'C'
   },
@@ -673,6 +684,7 @@ const questions = [
     id: 'single-37',
     type: 'single',
     question: '在5G赋能的工业控制场景中，以下哪一项最能体现“超低时延”特性对生产安全的保障作用？',
+    level: 1,
     options: ['A. 矿区高清监控视频的实时回传', 'B. 港口远程遥控天车进行集装箱吊装', 'C. 工厂内海量传感器的数据批量上报', 'D. 工业园区内员工的5G手机高速上网'],
     answer: 'B'
   },
@@ -680,6 +692,7 @@ const questions = [
     id: 'single-38',
     type: 'single',
     question: '以下哪个案例属于DDoS高防落地场景？',
+    level: 1,
     options: ['A. 北京市政务云等保服务', 'B. 各大银行流量清洗安全防护', 'C. 事业单位攻防演练', 'D. 政务密码测评'],
     answer: 'B'
   },
@@ -687,6 +700,7 @@ const questions = [
     id: 'single-39',
     type: 'single',
     question: 'BASIC6框架中，字母C代表的是？',
+    level: 1,
     options: ['A. 人工智能', 'B. 算力网络', 'C. 大数据', 'D. 安全'],
     answer: 'B'
   },
@@ -703,6 +717,7 @@ const questions = [
     id: 'multi-16',
     type: 'multi',
     question: '集团短彩信业务面向企业客户开放，其功能主要分为以下哪几大类？',
+    level: 1,
     options: ['A. 基本功能（如短信发送、日程提醒等）', 'B. 高级功能（如短信抽奖、投票调查等）', 'C. 管理功能（如黑白名单管理、权限管理等）', 'D. 业务融合功能（如视频通话、云盘存储）'],
     answer: 'ABC'
   },
@@ -724,6 +739,7 @@ const questions = [
     id: 'multi-19',
     type: 'multi',
     question: '哪几项属于专线卫士六大核心安全能力？',
+    level: 1,
     options: ['A. 入侵检测防护', 'B. 七层智能流控', 'C. 管端安全联动', 'D. DDoS流量清洗'],
     answer: 'ABC'
   },

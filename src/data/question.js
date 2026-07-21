@@ -750,6 +750,546 @@ const questions = [
     options: ['A. 专线、IDC、安全类', 'B. 云类、5G物联网、AI类', 'C. 语音短信、大数据、ICT', 'D. 个人宽带、家庭融合套餐'],
     answer: 'ABC'
   },
+    // ========== 判断题 (41-50) ==========
+  {
+    id: 'judge-41',
+    type: 'judge',
+    question: '在商务场合下，女士着裙装就坐通常需要用手背轻拢裙摆。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-42',
+    type: 'judge',
+    question: '在职业场合中，男士发型可以留短寸头。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-43',
+    type: 'judge',
+    question: '作为下属，和领导乘坐电梯时，让领导先进先出。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-44',
+    type: 'judge',
+    question: '上下楼梯时，让领导行走在远离楼梯扶手的位置，保证其安全。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-45',
+    type: 'judge',
+    question: '首因效应是指表达内容7%+外在形象38%+行为表现55%。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-46',
+    type: 'judge',
+    question: '低手位手势中，手腕和腹部在同一位置。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-47',
+    type: 'judge',
+    question: '在职业场合下，女士长发及肩者不用束起低马尾或盘起。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-48',
+    type: 'judge',
+    question: '初次与他人商务会见时，应当保持“一度微笑”，即嘴角微微上扬，笑容不露牙齿。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-49',
+    type: 'judge',
+    question: '职业礼仪中，鼻毛不得超出鼻孔1mm。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-50',
+    type: 'judge',
+    question: '接待客户时，应该引导客户站在有楼梯的一侧。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+
+  // ========== 单选题 (41-50) ==========
+  {
+    id: 'single-41',
+    type: 'single',
+    question: '在接待客户时，面对不熟悉的客户，目光应该看向客户的（）。',
+    options: ['A. 眼额正三角区', 'B. 眼鼻倒三角区', 'C. 眼睛', 'D. 锁骨'],
+    answer: 'A'
+  },
+  {
+    id: 'single-42',
+    type: 'single',
+    question: '当客户来我司做客谈项目时，接待者应该站在客户的（）。',
+    options: ['A. 正前方', 'B. 正后方', 'C. 前方斜侧45度', 'D. 正侧面'],
+    answer: 'C'
+  },
+  {
+    id: 'single-43',
+    type: 'single',
+    question: '收到对方递来的文件时，正确的做法是（）。',
+    options: ['A. 字对着对方', 'B. 浏览3s再收下', 'C. 眼睛直视对方手指', 'D. 抓走文件'],
+    answer: 'B'
+  },
+  {
+    id: 'single-44',
+    type: 'single',
+    question: '接待来访客户，正确握手时长为（）。',
+    options: ['A. 5-10秒', 'B. 1-3秒', 'C. 20秒以上', 'D. 不握手直接摆手'],
+    answer: 'B'
+  },
+  {
+    id: 'single-45',
+    type: 'single',
+    question: '职场中，握手的力度应为多重？',
+    options: ['A. 1斤', 'B. 2斤', 'C. 3斤', 'D. 4斤'],
+    answer: 'B'
+  },
+  {
+    id: 'single-46',
+    type: 'single',
+    question: '男人的“酒窝”长在什么地方？',
+    options: ['A. 脸', 'B. 领带窝', 'C. 西服', 'D. 眼额正三角区'],
+    answer: 'B'
+  },
+  {
+    id: 'single-47',
+    type: 'single',
+    question: '在商务接待场合下，先介绍（），（）先伸手。',
+    options: ['A. 上级，上级', 'B. 上级，下级', 'C. 下级，上级', 'D. 下级，下级'],
+    answer: 'C'
+  },
+  {
+    id: 'single-48',
+    type: 'single',
+    question: '在商务礼仪中，为了体现专业与尊重，不宜出现的鞠躬角度是（）。',
+    options: ['A. 15°', 'B. 30°', 'C. 45°', 'D. 90°'],
+    answer: 'D'
+  },
+  {
+    id: 'single-49',
+    type: 'single',
+    question: '在三十分钟以上的商务洽谈中，女士可以坐在椅子的什么部位？',
+    options: ['A. 1/3', 'B. 2/3', 'C. 1/2', 'D. 全部'],
+    answer: 'C'
+  },
+  {
+    id: 'single-50',
+    type: 'single',
+    question: '下述女士的着装中，符合商务礼仪的是（）。',
+    options: ['A. 皮裙', 'B. 黑色透肉丝袜', 'C. 超短裙', 'D. 八分西裤'],
+    answer: 'D'
+  },
+
+  // ========== 多选题 (21-25) ==========
+  {
+    id: 'multi-21',
+    type: 'multi',
+    question: '中餐上菜摆盘方位符合礼仪要求的有？',
+    options: ['A. 优先上凉菜开胃', 'B. 炒制类家常菜优先于焖炖、煨煮的大菜上桌', 'C. 直接把鱼脊、鸡尾正对贵客摆放', 'D. 上菜时兼顾主宾用餐便利，优先把食材优质部位朝向主位宾客'],
+    answer: 'ABD'
+  },
+  {
+    id: 'multi-22',
+    type: 'multi',
+    question: '商务活动握手需要满足哪些条件？',
+    options: ['A. 晃动力度2斤', 'B. 晃动3-5s', 'C. 男士握女士手只能触碰指腹', 'D. 不能鞠躬'],
+    answer: 'ABD'
+  },
+  {
+    id: 'multi-23',
+    type: 'multi',
+    question: '职场中，微笑一般分为两种类型，其中三度微笑应漏出几颗牙齿？',
+    options: ['A. 5', 'B. 6', 'C. 7', 'D. 8'],
+    answer: 'BD'
+  },
+  {
+    id: 'multi-24',
+    type: 'multi',
+    question: '关于办公软件与沟通工具的规范使用，以下说法正确的有？',
+    options: ['A. 在发送协同邮件时，若需相关部门领导审批，应确保流程合规', 'B. 在进行视频沟通时，无论是正式场合对接还是一般事务沟通，都应注意保持环境的安静及整洁', 'C. 使用钉钉汇报工作时，重点在于描述详细的过程和困难', 'D. 微信作为常用沟通工具，在使用文字和语音时都应遵循相应的职场礼仪规范'],
+    answer: 'ABD'
+  },
+  {
+    id: 'multi-25',
+    type: 'multi',
+    question: '公务场合下，男士领带最好佩戴什么样式？',
+    options: ['A. 纯色', 'B. 复杂几何图形', 'C. 条纹', 'D. 圆点'],
+    answer: 'ACD'
+  },
+    // ========== 判断题 (51-60) ==========
+  {
+    id: 'judge-51',
+    type: 'judge',
+    question: '中国移动规划2035年基本建成世界一流科技服务企业。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-52',
+    type: 'judge',
+    question: '中国移动2025年《财富》世界500强排第58位，位列全球电信运营商首位。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-53',
+    type: 'judge',
+    question: '1988年首个移动电话诞生。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-54',
+    type: 'judge',
+    question: '中国移动的企业愿景：建设网络强国、数字中国。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-55',
+    type: 'judge',
+    question: '中国移动是世界数据组织首届理事单位。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-56',
+    type: 'judge',
+    question: '党性是政绩观的决定性因素。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-57',
+    type: 'judge',
+    question: '党建工作只有可量化的“显绩”，不存在凝心聚力的“潜绩”。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-58',
+    type: 'judge',
+    question: '党性是党员干部立身、立业、立言、立德的基石。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-59',
+    type: 'judge',
+    question: '以人民为中心的发展思想是正确政绩观的核心要求。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-60',
+    type: 'judge',
+    question: '北京移动共有30个团组织，其中有1个团委，29个直属团支部（其中包括1个联合团支部）。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+
+  // ========== 单选题 (51-60) ==========
+  {
+    id: 'single-51',
+    type: 'single',
+    question: '中国移动的奋斗文化氛围是？',
+    options: ['A. 团结、务实、高效', 'B. 担当、创新、争先', 'C. 诚信、协作、共赢', 'D. 严谨、细致、卓越'],
+    answer: 'B'
+  },
+  {
+    id: 'single-52',
+    type: 'single',
+    question: 'BrandZ全球品牌价值百强榜中中国移动排名为？',
+    options: ['A. 58位', 'B. 62位', 'C. 10位', 'D. 首位'],
+    answer: 'B'
+  },
+  {
+    id: 'single-53',
+    type: 'single',
+    question: '中国移动核心价值观是？',
+    options: ['A. 建设网络强国、数字中国', 'B. 世界一流科技服务企业', 'C. 正德厚生，臻于至善', 'D. 担当、创新、争先'],
+    answer: 'C'
+  },
+  {
+    id: 'single-54',
+    type: 'single',
+    question: '中国移动连续多少年获评中央企业负责人经营业绩考核A级？',
+    options: ['A. 6年', 'B. 21年', 'C. 4年', 'D. 20年'],
+    answer: 'B'
+  },
+  {
+    id: 'single-55',
+    type: 'single',
+    question: '中国电信日是？',
+    options: ['A. 1月17日', 'B. 5月16日', 'C. 5月17日', 'D. 4月17日'],
+    answer: 'C'
+  },
+  {
+    id: 'single-56',
+    type: 'single',
+    question: '中国移动北京公司共青团公众号是什么？',
+    options: ['A. 北移青年', 'B. 北移青峰', 'C. 北移青锋', 'D. 北移共青团'],
+    answer: 'C'
+  },
+  {
+    id: 'single-57',
+    type: 'single',
+    question: '“青锋体验官”专项行动属于公司团委引领青年聚焦岗位建功，在作用发挥上远在前，做的哪一举措？',
+    options: ['A. 深化青年思想铸魂工程', 'B. 引领青年岗位建功活动', 'C. 深化青年创新创效活动', 'D. 深化青年志愿者活动'],
+    answer: 'B'
+  },
+  {
+    id: 'single-58',
+    type: 'single',
+    question: '青年践行正确政绩观要牢固树立的境界是？',
+    options: ['A. 功成不必在我、功成必定有我', 'B. 重业务、轻党建', 'C. 只看短期考核', 'D. 重视纸面材料'],
+    answer: 'A'
+  },
+  {
+    id: 'single-59',
+    type: 'single',
+    question: '群团工作室的工作职责是什么？',
+    options: ['A. “服务、支撑、托举”青年员工', 'B. “保障、支持、托举”青年员工', 'C. “服务、支持、托举”青年员工', 'D. “服务、支持、承托”青年员工'],
+    answer: 'C'
+  },
+  {
+    id: 'single-60',
+    type: 'single',
+    question: '在中国通信技术的发展史上，对于通信技术所处代际和中国通信业所处地位的对应错误的一项是？',
+    options: ['A. 1G空白', 'B. 2G跟随', 'C. 3G并跑', 'D. 5G引领'],
+    answer: 'C'
+  },
+
+  // ========== 多选题 (26-30) ==========
+  {
+    id: 'multi-26',
+    type: 'multi',
+    question: '中国移动目前实现“三个全球第一”的规模指标包含？',
+    options: ['A. 网络规模', 'B. 客户规模', 'C. 收入规模', 'D. 品牌价值'],
+    answer: 'ABC'
+  },
+  {
+    id: 'multi-27',
+    type: 'multi',
+    question: '中国移动基础体量与经营核心数据，下列表述正确的有？',
+    options: ['A. 集团下设所属单位数量超过60家', 'B. 企业员工总数量达到50万人', 'C. 企业年度营运收入为10502亿元', 'D. 全网整体连接规模数量超过39亿个'],
+    answer: 'ABCD'
+  },
+  {
+    id: 'multi-28',
+    type: 'multi',
+    question: '中国移动三大核心主业包括？',
+    options: ['A. 通信服务', 'B. 算力服务', 'C. 智能服务', 'D. 金融服务'],
+    answer: 'ABC'
+  },
+  {
+    id: 'multi-29',
+    type: 'multi',
+    question: '陈忠岳董事长2026五四致辞中希望青年？',
+    options: ['A. 做信念坚定，胸怀大局的有志青年', 'B. 做勇于创新，锐意进取的有为青年', 'C. 做勤学善思，精益求精的有识青年', 'D. 做实干担当，清正廉洁的有德青年'],
+    answer: 'ABCD'
+  },
+  {
+    id: 'multi-30',
+    type: 'multi',
+    question: '北京移动立足首都“四个中心”战略定位和“四个服务”核心职责。坚持（），全力服务首都发展大局。括号内的四字短语包括？',
+    options: ['A. 首都站位', 'B. 首要职责', 'C. 首善标准', 'D. 首位担当'],
+    answer: 'ACD'
+  },
+    // ========== 判断题 (61-70) ==========
+  {
+    id: 'judge-61',
+    type: 'judge',
+    question: '4G开启“万物互联”新模式。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-62',
+    type: 'judge',
+    question: '5G的三大应用场景是eMBB、URLLC、mMTC。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-63',
+    type: 'judge',
+    question: 'IMSI码与IMEI码都有15位。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-64',
+    type: 'judge',
+    question: 'IMSI的码从左到右前两位代表国家，其次紧挨着两位代表运营商。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-65',
+    type: 'judge',
+    question: 'MSISDN即移动台国际ISDN号码，就是公众日常使用的手机号码。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-66',
+    type: 'judge',
+    question: '4G系统的控制面与承载面不做分离设计。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-67',
+    type: 'judge',
+    question: '手机号码欠费停机状态下，依旧可以向10086发起视频通话。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-68',
+    type: 'judge',
+    question: 'IMSI是国际移动设备识别码。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-69',
+    type: 'judge',
+    question: '智慧路灯是物联网的应用场景。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-70',
+    type: 'judge',
+    question: 'NB-IoT 是由 3GPP 定义的基于蜂窝网络的窄带物联网技术。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+
+  // ========== 单选题 (61-71) ==========
+  {
+    id: 'single-61',
+    type: 'single',
+    question: 'CHBN中B代表？',
+    options: ['A. 个人', 'B. 家庭', 'C. 政企', 'D. 新兴业务'],
+    answer: 'C'
+  },
+  {
+    id: 'single-62',
+    type: 'single',
+    question: '可以在4G网络直接打电话、同时上网的方案是？',
+    options: ['A. 单卡双待方案', 'B. CSFB方案', 'C. VoLTE方案', 'D. 2G纯语音方案'],
+    answer: 'C'
+  },
+  {
+    id: 'single-63',
+    type: 'single',
+    question: 'IMSI国际移动用户识别码一共有多少位？',
+    options: ['A. 11位', 'B. 15位', 'C. 13位', 'D. 18位'],
+    answer: 'B'
+  },
+  {
+    id: 'single-64',
+    type: 'single',
+    question: '5G对应的无线空口缩写是？',
+    options: ['A. GSM', 'B. LTE', 'C. NR', 'D. CDMA'],
+    answer: 'C'
+  },
+  {
+    id: 'single-65',
+    type: 'single',
+    question: 'VoLTE对应的中文含义是？',
+    options: ['A. 窄带物联网', 'B. 高清语音', 'C. 网络功能虚拟化', 'D. 归属签约用户服务器'],
+    answer: 'B'
+  },
+  {
+    id: 'single-66',
+    type: 'single',
+    question: '在2G核心网中，CS域与PS域分工明确，负责传统语音通话业务的是？',
+    options: ['A. PS域', 'B. CS域', 'C. 应用域', 'D. 终端域'],
+    answer: 'B'
+  },
+  {
+    id: 'single-67',
+    type: 'single',
+    question: '物联网总体网络架构自上而下层级排序正确的是？',
+    options: ['A. 应用层→网络层→平台层→终端层', 'B. 终端层→网络层→平台层→应用层', 'C. 应用层→平台层→网络层→终端层', 'D. 平台层→应用层→网络层→终端层'],
+    answer: 'C'
+  },
+  {
+    id: 'single-68',
+    type: 'single',
+    question: '下列不属于5G三大核心技术特点的是？',
+    options: ['A. 超高带宽', 'B. 超低时延', 'C. 海量连接', 'D. 传输距离无限'],
+    answer: 'D'
+  },
+  {
+    id: 'single-69',
+    type: 'single',
+    question: '下列哪个缩写代表“窄带物联网”？',
+    options: ['A. IMSI', 'B. NFV', 'C. HSS/UDM', 'D. NB-IOT'],
+    answer: 'D'
+  },
+  {
+    id: 'single-70',
+    type: 'single',
+    question: '在携号转网的组网架构中，负责存储三家运营商用户携入、携出信息的系统是？',
+    options: ['A. 集团SMS/SOA/BOSS', 'B. CSMS (集中业务管理系统)', 'C. 彩信ENUM/DNS', 'D. NP MSC'],
+    answer: 'B'
+  },
+  {
+    id: 'single-71',
+    type: 'single',
+    question: 'HSS/UDM 在通信网络中的中文名称是？',
+    options: ['A. 窄带物联网', 'B. 网络功能虚拟化', 'C. 归属签约用户服务器', 'D. 高清语音'],
+    answer: 'C'
+  },
+
+  // ========== 多选题 (31-34) ==========
+  {
+    id: 'multi-31',
+    type: 'multi',
+    question: '完整移动通信网络的组成部分包含？',
+    options: ['A. 无线网', 'B. 传输网', 'C. 核心网', 'D. 承载网'],
+    answer: 'ABCD'
+  },
+  {
+    id: 'multi-32',
+    type: 'multi',
+    question: 'NB-IoT具备四大核心优势，分别是？',
+    options: ['A. 海量连接', 'B. 深度覆盖', 'C. 低功耗', 'D. 低成本'],
+    answer: 'ABCD'
+  },
+  {
+    id: 'multi-33',
+    type: 'multi',
+    question: '5G包含三大典型应用场景，分别是？',
+    options: ['A. eMBB（增强移动宽带）', 'B. mMTC（海量物联）', 'C. uRLLC（高可靠低时延连接）', 'D. IMT-2020'],
+    answer: 'ABC'
+  },
+  {
+    id: 'multi-34',
+    type: 'multi',
+    question: '对比4G，5G（IMT-2020）在网络能力上实现全面跃升，下列属于5G关键性能指标的有？',
+    options: ['A. 下行峰值速率20Gbps，上行峰值速率10Gbps', 'B. 空口时延可低至0.5ms（uRLLC用户面）', 'C. 连接数密度达到100万终端/km²', 'D. 移动性最高支持500km/h'],
+    answer: 'ABCD'
+  }
 ];
 
 export default questions;

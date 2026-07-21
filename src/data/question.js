@@ -783,6 +783,7 @@ const questions = [
     id: 'judge-45',
     type: 'judge',
     question: '首因效应是指表达内容7%+外在形象38%+行为表现55%。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -790,6 +791,7 @@ const questions = [
     id: 'judge-46',
     type: 'judge',
     question: '低手位手势中，手腕和腹部在同一位置。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -869,6 +871,7 @@ const questions = [
     id: 'single-47',
     type: 'single',
     question: '在商务接待场合下，先介绍（），（）先伸手。',
+    level: 1,
     options: ['A. 上级，上级', 'B. 上级，下级', 'C. 下级，上级', 'D. 下级，下级'],
     answer: 'C'
   },
@@ -906,6 +909,7 @@ const questions = [
     id: 'multi-22',
     type: 'multi',
     question: '商务活动握手需要满足哪些条件？',
+    level: 1,
     options: ['A. 晃动力度2斤', 'B. 晃动3-5s', 'C. 男士握女士手只能触碰指腹', 'D. 不能鞠躬'],
     answer: 'ABD'
   },
@@ -935,6 +939,7 @@ const questions = [
     id: 'judge-51',
     type: 'judge',
     question: '中国移动规划2035年基本建成世界一流科技服务企业。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -956,6 +961,7 @@ const questions = [
     id: 'judge-54',
     type: 'judge',
     question: '中国移动的企业愿景：建设网络强国、数字中国。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -998,6 +1004,7 @@ const questions = [
     id: 'judge-60',
     type: 'judge',
     question: '北京移动共有30个团组织，其中有1个团委，29个直属团支部（其中包括1个联合团支部）。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -1014,6 +1021,7 @@ const questions = [
     id: 'single-52',
     type: 'single',
     question: 'BrandZ全球品牌价值百强榜中中国移动排名为？',
+    level: 1,
     options: ['A. 58位', 'B. 62位', 'C. 10位', 'D. 首位'],
     answer: 'B'
   },
@@ -1049,6 +1057,7 @@ const questions = [
     id: 'single-57',
     type: 'single',
     question: '“青锋体验官”专项行动属于公司团委引领青年聚焦岗位建功，在作用发挥上远在前，做的哪一举措？',
+    level: 1,
     options: ['A. 深化青年思想铸魂工程', 'B. 引领青年岗位建功活动', 'C. 深化青年创新创效活动', 'D. 深化青年志愿者活动'],
     answer: 'B'
   },
@@ -1063,6 +1072,7 @@ const questions = [
     id: 'single-59',
     type: 'single',
     question: '群团工作室的工作职责是什么？',
+    level: 1,
     options: ['A. “服务、支撑、托举”青年员工', 'B. “保障、支持、托举”青年员工', 'C. “服务、支持、托举”青年员工', 'D. “服务、支持、承托”青年员工'],
     answer: 'C'
   },
@@ -1070,6 +1080,7 @@ const questions = [
     id: 'single-60',
     type: 'single',
     question: '在中国通信技术的发展史上，对于通信技术所处代际和中国通信业所处地位的对应错误的一项是？',
+    level: 1,
     options: ['A. 1G空白', 'B. 2G跟随', 'C. 3G并跑', 'D. 5G引领'],
     answer: 'C'
   },
@@ -1107,6 +1118,7 @@ const questions = [
     id: 'multi-30',
     type: 'multi',
     question: '北京移动立足首都“四个中心”战略定位和“四个服务”核心职责。坚持（），全力服务首都发展大局。括号内的四字短语包括？',
+    level: 1,
     options: ['A. 首都站位', 'B. 首要职责', 'C. 首善标准', 'D. 首位担当'],
     answer: 'ACD'
   },
@@ -1136,6 +1148,7 @@ const questions = [
     id: 'judge-64',
     type: 'judge',
     question: 'IMSI的码从左到右前两位代表国家，其次紧挨着两位代表运营商。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -1143,6 +1156,7 @@ const questions = [
     id: 'judge-65',
     type: 'judge',
     question: 'MSISDN即移动台国际ISDN号码，就是公众日常使用的手机号码。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -1164,6 +1178,7 @@ const questions = [
     id: 'judge-68',
     type: 'judge',
     question: 'IMSI是国际移动设备识别码。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -1208,6 +1223,7 @@ const questions = [
     id: 'single-64',
     type: 'single',
     question: '5G对应的无线空口缩写是？',
+    level: 1,
     options: ['A. GSM', 'B. LTE', 'C. NR', 'D. CDMA'],
     answer: 'C'
   },
@@ -1222,6 +1238,7 @@ const questions = [
     id: 'single-66',
     type: 'single',
     question: '在2G核心网中，CS域与PS域分工明确，负责传统语音通话业务的是？',
+    level: 1,
     options: ['A. PS域', 'B. CS域', 'C. 应用域', 'D. 终端域'],
     answer: 'B'
   },
@@ -1229,6 +1246,7 @@ const questions = [
     id: 'single-67',
     type: 'single',
     question: '物联网总体网络架构自上而下层级排序正确的是？',
+    level: 1,
     options: ['A. 应用层→网络层→平台层→终端层', 'B. 终端层→网络层→平台层→应用层', 'C. 应用层→平台层→网络层→终端层', 'D. 平台层→应用层→网络层→终端层'],
     answer: 'C'
   },
@@ -1250,6 +1268,7 @@ const questions = [
     id: 'single-70',
     type: 'single',
     question: '在携号转网的组网架构中，负责存储三家运营商用户携入、携出信息的系统是？',
+    level: 1,
     options: ['A. 集团SMS/SOA/BOSS', 'B. CSMS (集中业务管理系统)', 'C. 彩信ENUM/DNS', 'D. NP MSC'],
     answer: 'B'
   },

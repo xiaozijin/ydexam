@@ -1308,6 +1308,381 @@ const questions = [
     question: '对比4G，5G（IMT-2020）在网络能力上实现全面跃升，下列属于5G关键性能指标的有？',
     options: ['A. 下行峰值速率20Gbps，上行峰值速率10Gbps', 'B. 空口时延可低至0.5ms（uRLLC用户面）', 'C. 连接数密度达到100万终端/km²', 'D. 移动性最高支持500km/h'],
     answer: 'ABCD'
+  },
+    // ========== 判断题 (71-80) ==========
+  {
+    id: 'judge-71',
+    type: 'judge',
+    question: '海恩里希法则又叫300:29:1法则。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-72',
+    type: 'judge',
+    question: '中央企业依据国务院国资委核定的主营业务和安全生产的风险程度分为三类，其中中国移动属于第三类企业。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-73',
+    type: 'judge',
+    question: '造成3人以上10人以下死亡，或者10人以上50人以下重伤，或1000万元以上5000万元以下直接经济损失的事故为重大事故。',
+    level: 1,
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-74',
+    type: 'judge',
+    question: '对员工进行安全教育是国家法律法规的要求。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-75',
+    type: 'judge',
+    question: '要从源头上防范化解重大安全风险。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-76',
+    type: 'judge',
+    question: '任何事故都是可以预防的。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-77',
+    type: 'judge',
+    question: '识别可疑爆炸物需要用手触碰检验。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-78',
+    type: 'judge',
+    question: '根据公司安全规定，员工在楼宇开放办公区内可以使用电热水壶、养生壶等大功率电器，只需注意远离易燃物即可。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-79',
+    type: 'judge',
+    question: '金属钠、钾等物质着火时，可用水或泡沫灭火器扑救。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-80',
+    type: 'judge',
+    question: '使用干粉灭火器扑救电气火灾时，人体与带电体的安全距离室内应大于2米，室外应大于5米。',
+    level: 1,
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+
+  // ========== 单选题 (72-81) ==========
+  {
+    id: 'single-72',
+    type: 'single',
+    question: '造成3人以下死亡，或者10人以下重伤，或者1000万元以下直接经济损失的事故是？',
+    options: ['A. 一般事故', 'B. 较大事故', 'C. 重大事故', 'D. 特别重大事故'],
+    answer: 'A'
+  },
+  {
+    id: 'single-73',
+    type: 'single',
+    question: '安全管理基本概念是？',
+    level: 1,
+    options: ['A. 一不放过原则', 'B. 二不放过原则', 'C. 三不放过原则', 'D. 四不放过原则'],
+    answer: 'D'
+  },
+  {
+    id: 'single-74',
+    type: 'single',
+    question: '关于中国移动安全隐患“随手拍”标准流程，排序正确的是？',
+    options: ['A. 扫码上报随手拍→任务处理→整改安全隐患→审核整改结果', 'B. 任务处理→扫码上报随手拍→整改安全隐患→审核整改结果', 'C. 扫码上报随手拍→整改安全隐患→任务处理→审核整改结果', 'D. 审核整改结果→扫码上报随手拍→任务处理→整改安全隐患'],
+    answer: 'A'
+  },
+  {
+    id: 'single-75',
+    type: 'single',
+    question: '公司安全文化建设的重要意义是？',
+    level: 1,
+    options: ['A. 实现公司核心价值观的重要举措', 'B. 保障公司员工安全的重要途径', 'C. 实现公司效益最大化的理想路径', 'D. 管控安全风险的核心办法'],
+    answer: 'A'
+  },
+  {
+    id: 'single-76',
+    type: 'single',
+    question: '根据《电信条例》规定，电信业务经营者及其工作人员不得擅自向他人提供？',
+    level: 1,
+    options: ['A. 用户手机号码后四位', 'B. 用户通话时长统计', 'C. 电信用户使用电信网络所传输信息的内容', 'D. 用户入网年份'],
+    answer: 'C'
+  },
+  {
+    id: 'single-77',
+    type: 'single',
+    question: '当身上衣物着火时，下列做法中正确的是？',
+    options: ['A. 利用风速吹灭火焰', 'B. 若衣物难以脱去，应保持站立不动，等待他人救援', 'C. 身上沾有油类着火时，最好用干燥的棉被直接拍打灭火', 'D. 迅速脱去着火衣物，或就地打滚压灭火焰，且不可奔跑'],
+    answer: 'D'
+  },
+  {
+    id: 'single-78',
+    type: 'single',
+    question: '关于客户个人信息保护，以下行为符合规定的是？',
+    options: ['A. 将客户手机号码批量导出用于外呼营销', 'B. 未经客户同意，向第三方提供其通话记录', 'C. 仅在业务办理必要范围内查看客户信息', 'D. 离职时将客户资料拷贝带走以备后用'],
+    answer: 'C'
+  },
+  {
+    id: 'single-79',
+    type: 'single',
+    question: '我国消防工作贯彻的基本方针是？',
+    options: ['A. 安全第一，综合治理', 'B. 预防为主，防消结合', 'C. 属地管理，逐级负责', 'D. 全员参与，专项整治'],
+    answer: 'B'
+  },
+  {
+    id: 'single-80',
+    type: 'single',
+    question: '2022年9月16日下午，位于（）市区内的中国电信大楼发生火灾。',
+    options: ['A. 湖南长沙', 'B. 北京', 'C. 广东广州', 'D. 浙江杭州'],
+    answer: 'A'
+  },
+  {
+    id: 'single-81',
+    type: 'single',
+    question: '国家机关或者金融、电信、交通等单位的工作人员，违反国家规定，将本单位在履行职责或者提供服务过程中获得的公民个人信息，出售或者非法提供给他人，情节严重的，处（）年以下有期徒刑或者拘役，并处或单处罚金。',
+    options: ['A. 2年', 'B. 3年', 'C. 1年零5个月', 'D. 4年'],
+    answer: 'B'
+  },
+
+  // ========== 多选题 (35-39) ==========
+  {
+    id: 'multi-35',
+    type: 'multi',
+    question: '以下属于从业人员的权利和义务有？',
+    options: ['A. 知情权', 'B. 建议权', 'C. 索赔权', 'D. 批评、控告权'],
+    answer: 'ABCD'
+  },
+  {
+    id: 'multi-36',
+    type: 'multi',
+    question: '治安保卫的方针是？',
+    level: 1,
+    options: ['A. 预防为主', 'B. 单位负责', 'C. 风险管理', 'D. 突出重点', 'E. 保障安全'],
+    answer: 'ABDE'
+  },
+  {
+    id: 'multi-37',
+    type: 'multi',
+    question: '安全生产方针有？',
+    level: 1,
+    options: ['A. 安全第一', 'B. 综合治理', 'C. 预防为主', 'D. 突出重点'],
+    answer: 'ABC'
+  },
+  {
+    id: 'multi-38',
+    type: 'multi',
+    question: '以下哪些属于灭火的基本方法？',
+    level: 1,
+    options: ['A. 冷却灭火法', 'B. 隔离灭火法', 'C. 压制灭火法', 'D. 窒息灭火法'],
+    answer: 'ABD'
+  },
+  {
+    id: 'multi-39',
+    type: 'multi',
+    question: '被恐怖分子劫持时，正确的处置做法包括？',
+    level: 1,
+    options: ['A. 与恐怖分子积极对话，争取谈判机会', 'B. 保持冷静，动作缓慢，不对视不对话', 'C. 将手机调至静音，适时用短信向110求救', 'D. 警方突击瞬间，迅速站立跑向警察'],
+    answer: 'BC'
+  },
+    // ========== 判断题 (81-90) ==========
+  {
+    id: 'judge-81',
+    type: 'judge',
+    question: '对于新闻机构，记者可能是你的挑战者。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-82',
+    type: 'judge',
+    question: '媒体包括书籍、报纸、杂志等及其生产、传播机构。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-83',
+    type: 'judge',
+    question: '公司对外信息披露统一归口管理部门为应急响应部。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-84',
+    type: 'judge',
+    question: '新媒体和传统媒体在新闻传播的过程中发挥着各自的作用，互不影响。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-85',
+    type: 'judge',
+    question: '有关公司重大、保密信息，应严格按照《对外信息披露管理办法》按照审批流程签发后方可对外披露。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-86',
+    type: 'judge',
+    question: '公司员工可以在个人朋友圈发布未对外公布的业务发展预测数据，只要不标注公司名称即可。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-87',
+    type: 'judge',
+    question: '中国移动所有信息披露都要严格遵守《对外信息披露管理办法》。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-88',
+    type: 'judge',
+    question: '信息披露数据内容只要基本正确，无需再三审核。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'B'
+  },
+  {
+    id: 'judge-89',
+    type: 'judge',
+    question: '作为中国移动的窗口，北京公司敏感舆情的防范难度加大。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+  {
+    id: 'judge-90',
+    type: 'judge',
+    question: '媒体以覆盖地域可以分为境外媒体和境内媒体，其中境内媒体按行政管理可以分为中央级媒体和地方媒体。',
+    options: ['A. 正确', 'B. 错误'],
+    answer: 'A'
+  },
+
+  // ========== 单选题 (82-91) ==========
+  {
+    id: 'single-82',
+    type: 'single',
+    question: '下列信息披露形式中，执行难度最高的是？',
+    options: ['A. 广告', 'B. 新闻发布会', 'C. 公告', 'D. 采访'],
+    answer: 'B'
+  },
+  {
+    id: 'single-83',
+    type: 'single',
+    question: '下面哪项不是北京地区媒体生态的特点？',
+    options: ['A. 中央级媒体齐聚', 'B. 国外媒体长期驻扎', 'C. 网红媒体繁华', 'D. 新旧媒体交织'],
+    answer: 'C'
+  },
+  {
+    id: 'single-84',
+    type: 'single',
+    question: '新闻机构中从事信息采集和新闻报道工作的人通常称为？',
+    options: ['A. 记者', 'B. 导演', 'C. 摄影师', 'D. 制片人'],
+    answer: 'A'
+  },
+  {
+    id: 'single-85',
+    type: 'single',
+    question: '消费者权益日是？',
+    options: ['A. 1月16号', 'B. 3月15号', 'C. 5月17号', 'D. 6月27号'],
+    answer: 'B'
+  },
+  {
+    id: 'single-86',
+    type: 'single',
+    question: '信息发布的外部渠道不包括？',
+    options: ['A. 门户网络', 'B. 官方微博', 'C. 微信工作群', 'D. 今日头条'],
+    answer: 'C'
+  },
+  {
+    id: 'single-87',
+    type: 'single',
+    question: '（）作为公司唯一指定发言人，负责审批采访需求及对外口径，向媒体发布重大新闻。',
+    options: ['A. 部门宣传专员', 'B. 总新闻发言人', 'C. 综合部行政主管', 'D. 业务部门负责人'],
+    answer: 'B'
+  },
+  {
+    id: 'single-88',
+    type: 'single',
+    question: '根据公司新闻发言人制度，新闻发言人工作的牵头部门是？',
+    level: 1,
+    options: ['A. 综合部', 'B. 网络部', 'C. 党建工作部', 'D. 内审部'],
+    answer: 'A'
+  },
+  {
+    id: 'single-89',
+    type: 'single',
+    question: '北京移动对外信息披露的统一归口管理部门是？',
+    options: ['A. 各业务一线部门', 'B. 公司综合部', 'C. 市场部', 'D. 政企客户部'],
+    answer: 'B'
+  },
+  {
+    id: 'single-90',
+    type: 'single',
+    question: '媒体沟通三原则中，以下哪个不属于访问“三不要”？',
+    level: 1,
+    options: ['A. 不要躲', 'B. 不要少', 'C. 不要议', 'D. 不要多'],
+    answer: 'B'
+  },
+  {
+    id: 'single-91',
+    type: 'single',
+    question: '敏感舆情管理的总体方针是？',
+    options: ['A. 事后补救为主', 'B. 工作前移，预防为主', 'C. 被动等待媒体问询', 'D. 仅处置不复盘'],
+    answer: 'B'
+  },
+
+  // ========== 多选题 (40-44) ==========
+  {
+    id: 'multi-40',
+    type: 'multi',
+    question: '信息披露三大原则？',
+    level: 1,
+    options: ['A. 统一领导，归口管理', 'B. 分级负责，职责明确', 'C. 专人负责，闭环管理', 'D. 礼貌温和，坦诚相告'],
+    answer: 'ABC'
+  },
+  {
+    id: 'multi-41',
+    type: 'multi',
+    question: '下列哪些属于敏感舆情的外部因素？',
+    level: 1,
+    options: ['A. 网络覆盖', 'B. 政策风险', 'C. 企业经营', 'D. 客户投诉'],
+    answer: 'BD'
+  },
+  {
+    id: 'multi-42',
+    type: 'multi',
+    question: '信息披露审批专项单包括？',
+    level: 1,
+    options: ['A. 简要填写信息摘要', 'B. 会签部门签字', 'C. 综合部主管三级经理签字', 'D. 综合部主管二级经理签字'],
+    answer: 'ABD'
+  },
+  {
+    id: 'multi-43',
+    type: 'multi',
+    question: '记者前来采访，受访人员现场沟通需遵守“三要三不要”规范，下列属于“三要”要求的有？',
+    options: ['A. 要简洁，语言精简、少用语气词', 'B. 要事实，只陈述客观事实，不猜测、不撒谎', 'C. 要亲和，避免与记者发生争执冲突', 'D. 要多讲，主动提供采访范围以外的补充信息'],
+    answer: 'ABC'
+  },
+  {
+    id: 'multi-44',
+    type: 'multi',
+    question: '以下属于与运营商相关的重大事件时期有？',
+    level: 1,
+    options: ['A. 校园迎新', 'B. 农历新年', 'C. 年报发布', 'D. 审计'],
+    answer: 'ACD'
   }
 ];
 

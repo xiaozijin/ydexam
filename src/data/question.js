@@ -1703,6 +1703,7 @@ const questions = [
     id: 'judge-93',
     type: 'judge',
     question: '客户详单属于高价值、极易被第三方牟利的客户信息。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -1762,6 +1763,7 @@ const questions = [
     type: 'single',
     question: '信息安全是指信息系统（包括硬件、软件、数据、物理环境）的____，不受恶意或者意外事件而遭到破坏、更改、泄露。',
     options: ['A. 保密性、完整性、可用性', 'B. 唯一性、安全性、持续性', 'C. 稳定性、保密性、持续性', 'D. 完整性、开放性、可用性'],
+    level: 1,
     answer: 'A'
   },
   {
@@ -1848,6 +1850,7 @@ const questions = [
     type: 'multi',
     question: '下列属于高价值客户信息的有？',
     options: ['A. 客户详单', 'B. 用户密码', 'C. 客户位置信息', 'D. 客户通信内容记录'],
+    level: 1,
     answer: 'ABCD'
   },
   {
@@ -1883,6 +1886,7 @@ const questions = [
     id: 'judge-103',
     type: 'judge',
     question: '北京移动的客户满意度采用抽样调查的方式。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -2007,6 +2011,7 @@ const questions = [
     type: 'multi',
     question: '客户满意度采用抽样调查的方法测评，包括以下哪几个部分？',
     options: ['A. 抽样调查', 'B. 随机抽样', 'C. 统计误差', 'D. 筛选分组'],
+    level: 1,
     answer: 'ABC'
   },
   {
@@ -2020,6 +2025,7 @@ const questions = [
     id: 'multi-52',
     type: 'multi',
     question: '中国移动客户满意度移动业务考核模型中三级指标中的渠道服务包含哪些？',
+    level: 1,
     options: ['A. 营业厅', 'B. 热线', 'C. 网络故障修复服务', 'D. 电子渠道'],
     answer: 'ABD'
   },
@@ -2063,6 +2069,7 @@ const questions = [
     id: 'judge-116',
     type: 'judge',
     question: '职务侵占罪，侵占单位财物100万元属于数额较大标准。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -2070,6 +2077,7 @@ const questions = [
     id: 'judge-117',
     type: 'judge',
     question: '“和法同行，尊享规则”是中国移动的法治使命。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -2101,6 +2109,7 @@ const questions = [
     type: 'single',
     question: '殴打他人，情节较轻的，治安处罚正确的是？',
     options: ['A. 五日以上十日拘留，并处五百元以上一千元罚款', 'B. 五日以下拘留或者一千元以下罚款', 'C. 十日以上十五日拘留，并处一千到两千元罚款', 'D. 直接追究刑事责任'],
+    level: 1,
     answer: 'B'
   },
   {
@@ -2114,6 +2123,7 @@ const questions = [
     id: 'single-113',
     type: 'single',
     question: '驾驶人血液中的酒精含量为 65mg/100ml，依法应认定为？',
+    level: 1,
     options: ['A. 未饮酒驾驶', 'B. 酒后驾驶（酒驾）', 'C. 醉酒驾驶（醉驾）', 'D. 危险驾驶罪'],
     answer: 'B'
   },
@@ -2135,6 +2145,7 @@ const questions = [
     id: 'single-116',
     type: 'single',
     question: '国有公司、企业工作人员滥用职权，造成国家直接经济损失达到多少，应予追诉？',
+    level: 1,
     options: ['A. 20万元', 'B. 30万元', 'C. 40万元', 'D. 50万元'],
     answer: 'B'
   },
@@ -2149,6 +2160,7 @@ const questions = [
     id: 'single-118',
     type: 'single',
     question: '根据我国《刑法》及司法解释规定，侵犯公民个人信息罪，情节特别严重的，处以什么刑罚？',
+    level: 1,
     options: ['A. 处三年以下有期徒刑或者拘役，并处或者单处罚金', 'B. 处三年以上七年以下有期徒刑，并处罚金', 'C. 处五年以上十年以下有期徒刑，并处罚金', 'D. 处七年以上有期徒刑，并处罚金'],
     answer: 'B'
   },
@@ -2194,6 +2206,7 @@ const questions = [
     type: 'multi',
     question: '使用他人图片未获得授权，可能侵害的权利有？',
     options: ['A. 署名权', 'B. 修改权', 'C. 信息网络传播权', 'D. 知情权'],
+    level: 1,
     answer: 'ABC'
   },
   {
@@ -2201,6 +2214,7 @@ const questions = [
     type: 'multi',
     question: '竞业禁止义务约定生效场景，可以写入哪些文件中？',
     options: ['A. 劳动合同', 'B. 知识产权权利归属协议', 'C. 技术保密协议', 'D. 员工入职登记表'],
+    level: 1,
     answer: 'ABC'
   }
 ];

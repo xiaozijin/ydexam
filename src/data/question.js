@@ -2216,6 +2216,21 @@ const questions = [
     options: ['A. 劳动合同', 'B. 知识产权权利归属协议', 'C. 技术保密协议', 'D. 员工入职登记表'],
     level: 1,
     answer: 'ABC'
+  },
+    {
+    id: 'multi-58',
+    type: 'multi',
+    question: '国内满意度模型主要由以下哪些要素构成？',
+    options: ['A. 感知质量', 'B. 预期质量', 'C. 用户忠诚', 'D. 满意度', 'E. 用户抱怨'],
+    answer: 'ABCD'
+  },
+  {
+    id: 'multi-59',
+    type: 'multi',
+    question: '综合满意度表现的计算与下列哪些因素有关？',
+    level: 1,
+    options: ['A. 移动业务满意度', 'B. 固定上网满意度', 'C. 固定语音满意度', 'D. 业务用户数', 'E. 竞争对手综合满意度'],
+    answer: 'ABC'
   }
 ];
 

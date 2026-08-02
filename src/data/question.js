@@ -161,8 +161,8 @@ const questions = [
     type: 'multi',
     question: '从纪法角度，员工需要遵守的条例有？',
     level: 1,
-    options: ['A.《中国共产党章程》党员权利义务', 'B.《中国共产党纪律处分条例》党规党纪、六大纪律要求', 'C.《员工违纪违规处分条例》', 'D.《刑法》', 'E. 中央八项规定'],
-    answer: 'ABD'
+    options: ['A.《中国共产党章程》党员权利义务', 'B.《中国共产党纪律处分条例》党规党纪、六大纪律要求', 'C. 中央八项规定', 'D. 《刑法》'],
+    answer: 'ABCD'
   },
   {
     id: 'multi-3',
@@ -191,7 +191,6 @@ const questions = [
     id: 'judge-11',
     type: 'judge',
     question: '北京移动绩效管理包含绩效计划制定、绩效辅导、绩效评估、绩效应用四大核心环节。',
-    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -559,6 +558,7 @@ const questions = [
     id: 'multi-15',
     type: 'multi',
     question: '关于“和家庭分享”业务，以下哪些操作可以当月办理立即生效？',
+    level: 1,
     options: ['A. 业务取消', 'B. 增加副卡', 'C. 删除副卡', 'D. 取消零副卡提醒服务'],
     answer: 'ABCD'
   },
@@ -639,7 +639,6 @@ const questions = [
     id: 'single-31',
     type: 'single',
     question: '下列关于互联网BGP专线的目标客户，描述准确的是？',
-    level: 1,
     options: ['A. 街边商铺、小型门店', 'B. 互联网信息服务提供商，如百度、腾讯等企业', 'C. 仅适用于跨省组网的集团公司', 'D. 对价格高度敏感的小微企业'],
     answer: 'B'
   },
@@ -677,6 +676,7 @@ const questions = [
     id: 'single-36',
     type: 'single',
     question: '以下不属于ICT相关能力的有？',
+    level: 1,
     options: ['A. 规划设计能力', 'B. 产品研发能力', 'C. 运营运维能力', 'D. 财务核算能力'],
     answer: 'D'
   },
@@ -776,6 +776,7 @@ const questions = [
     id: 'judge-44',
     type: 'judge',
     question: '上下楼梯时，让领导行走在远离楼梯扶手的位置，保证其安全。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'B'
   },
@@ -820,6 +821,7 @@ const questions = [
     id: 'judge-50',
     type: 'judge',
     question: '接待客户时，应该引导客户站在有楼梯的一侧。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -857,6 +859,7 @@ const questions = [
     id: 'single-45',
     type: 'single',
     question: '职场中，握手的力度应为多重？',
+    level: 1,
     options: ['A. 1斤', 'B. 2斤', 'C. 3斤', 'D. 4斤'],
     answer: 'B'
   },
@@ -917,6 +920,7 @@ const questions = [
     id: 'multi-23',
     type: 'multi',
     question: '职场中，微笑一般分为两种类型，其中三度微笑应漏出几颗牙齿？',
+    level: 1,
     options: ['A. 5', 'B. 6', 'C. 7', 'D. 8'],
     answer: 'BD'
   },
@@ -1014,6 +1018,7 @@ const questions = [
     id: 'single-51',
     type: 'single',
     question: '中国移动的奋斗文化氛围是？',
+    level: 1,
     options: ['A. 团结、务实、高效', 'B. 担当、创新、争先', 'C. 诚信、协作、共赢', 'D. 严谨、细致、卓越'],
     answer: 'B'
   },
@@ -1141,6 +1146,7 @@ const questions = [
     id: 'judge-63',
     type: 'judge',
     question: 'IMSI码与IMEI码都有15位。',
+    level: 1,
     options: ['A. 正确', 'B. 错误'],
     answer: 'A'
   },
@@ -2231,7 +2237,14 @@ const questions = [
     level: 1,
     options: ['A. 移动业务满意度', 'B. 固定上网满意度', 'C. 固定语音满意度', 'D. 业务用户数', 'E. 竞争对手综合满意度'],
     answer: 'ABC'
-  }
+  },
+  {
+    id: 'multi-60',
+    type: 'multi',
+    question: '能够实现通话与上网并发的方案有？',
+    options: ['A. A.单卡双待方案', 'B. CSFB方案', 'C. VoLTE方案', 'D. 2G纯语音方案动性最高支持500km/h'],
+    answer: 'ABC'
+  },
 ];
 
 export default questions;
